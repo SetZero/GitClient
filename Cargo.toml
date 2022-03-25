@@ -1,5 +1,5 @@
 [package]
-name = "GitClient"
+name = "git_client"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,3 +7,5 @@ edition = "2021"
 
 [dependencies]
 git2 = "0.13"
+tui = "0.17.0"
+crossterm = "0.22"
